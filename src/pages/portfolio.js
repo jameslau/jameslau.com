@@ -1,12 +1,10 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const PortfolioPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Portfolio</h1>
       <p>Checkout some of the work I have done in the past!</p>
       
@@ -19,9 +17,7 @@ const PortfolioPage = () => {
         <h3>kor</h3>
         <p>kor project description goes here</p>
       </div>
-
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

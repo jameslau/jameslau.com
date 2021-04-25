@@ -1,13 +1,10 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const BlogPage = () => {
   return (
-    <div>
-      <Header />
-
+    <Layout>
       <div>
         <h3>Finding Your Comfortzone</h3>
         <p>04-23-21</p>
@@ -25,9 +22,7 @@ const BlogPage = () => {
         <p>04-21-21</p>
         <p>Curabitur id diam et dui malesuada placerat vel a eros. Sed sodales aliquet dignissim. In molestie consectetur augue, in vehicula justo vulputate vel. Phasellus varius enim ipsum, sed tincidunt lacus tempor et. Suspendisse imperdiet urna risus, et faucibus risus porta ut. Aliquam quis lacus justo. Suspendisse id neque lectus. Mauris consectetur augue in nisl sodales, eu viverra dolor fermentum. Pellentesque eget mattis sapien.</p>
       </div>
-
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
