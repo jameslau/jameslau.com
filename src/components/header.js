@@ -11,7 +11,8 @@ const Header = () => {
 
   // a tag template literal
   const data = useStaticQuery(graphql`
-    query {site {
+    query {
+      site {
         siteMetadata {
           title
         }
