@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    /* altering title also alters GraphQL database */
+    title: 'James Lau Portfolio Site', 
+    author: 'James Lau'
+  }, 
   plugins: [
     'gatsby-plugin-sass'
   ]
