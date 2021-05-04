@@ -1,6 +1,8 @@
 ---
 title: "Gatsby Notes"
 date: "2021-04-30"
+description: "Learning and understanding Gatsby"
+draft: true
 ---
 
 Diving into React via Gatsby JAMStack option.
