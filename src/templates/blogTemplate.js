@@ -1,11 +1,32 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const BlogTemplate = () => {
+// define queries separately. this only works well with the template files
+export const query = graphql`
+query (
+  $slug: String!
+) {
+  markdownRemark (
+    fields: {
+      slug: {
+        eq: $slug
+      }
+    }
+  ) {
+    frontmatter {
+      title
+    }
+    html
+  }
+}
+`
+
+const BlogTemplate = (props) => {
   return (
     <Layout>
-      This is the blog template
+      <h1>{props.data.markdownRemark.frontmatter.title}</h1>
     </Layout>
   )
 }
