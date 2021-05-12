@@ -7,6 +7,8 @@ draft: true
 
 Diving into React via Gatsby JAMStack option.
 
+![Mountain](./mountain.jpg)
+
 ## Topics Covered
 
 1. Gatsby

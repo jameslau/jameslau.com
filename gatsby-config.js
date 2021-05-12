@@ -20,6 +20,26 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    'gatsby-transformer-remark'
+    'gatsby-plugin-sharp',
+    {
+      // convert the gatsby transform-remark from a string to an object for enhancements
+      resolve: 'gatsby-transformer-remark',
+      // setup options object
+      // setup options documentation: https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/
+      options: {
+        plugins: [
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // you can provide this option in the JS code to auto resize the images
+              maxWidth: 750,
+              // prevent you from clicking an image and taking you to the actual image in the directory
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    },
   ]
 } 
