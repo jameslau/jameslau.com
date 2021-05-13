@@ -6,9 +6,9 @@ const ContactPage = () => {
   return (
     <Layout>
       <h1>Contact</h1>
-      <p>phone: 617-555-5555</p>
-      <p>email: ****@gmail.com</p>
-      <p>twitter: <a href="https://twitter.com/james_lau">@james_lau</a></p>
+      <p>email: jamesdylau@gmail.com</p>
+      <p>twitter: <a href="https://twitter.com/james_lau" target="blank">@james_lau</a></p>
+      <p>github: <a href="https://github.com/jameslau" target="blank">github activities</a></p>
     </Layout>
   )
 }
