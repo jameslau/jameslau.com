@@ -49,6 +49,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
   
   // resolve will create everything from the absolute path of the harddrive
   const blogTemplate = path.resolve('./src/templates/blogTemplate.js')
+  const workTemplate = path.resolve('./src/templates/workTemplate.js')
   
   // this functions creates a promise
   const res = await graphql(`
@@ -75,9 +76,21 @@ module.exports.createPages = async ({ graphql, actions }) => {
       }
     })
   });
+
+  // iterate all posts and run createPage function for each post
+  res.data.allMarkdownRemark.edges.forEach((edge) => {
+    createPage ({
+      component: workTemplate,
+      path: `/work/${edge.node.fields.slug}`,
+      context: {
+        slug: edge.node.fields.slug
+      }
+    })
+  });
   
   // 1. get path to template
   // 2. get markdown data
   // 3. create new pages
 
 }
+

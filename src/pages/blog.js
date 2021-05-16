@@ -18,7 +18,6 @@ const BlogPage = () => {
             }
             frontmatter {
               title
-              date
             }
           }
         }

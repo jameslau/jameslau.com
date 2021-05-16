@@ -12,6 +12,7 @@ module.exports = {
     author: 'James Lau'
   }, 
   plugins: [
+    `gatsby-plugin-image`,
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
@@ -20,13 +21,26 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    'gatsby-plugin-sharp',
+    'gatsby-plugin-sharp', 
+    {
+      // add location of image files for site overall
+      resolve: `gatsby-source-filesystem`,
+      // setup options object for path directory
+      // https://www.gatsbyjs.com/docs/working-with-images-in-markdown/#configuring-for-images-and-posts-in-different-directories
+      options: {
+        name: 'assets',
+        path: `${__dirname}/src/assets`,
+      },
+    },
     {
       // convert the gatsby transform-remark from a string to an object for enhancements
       resolve: 'gatsby-transformer-remark',
       // setup options object
       // setup options documentation: https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/
       options: {
+        // https://www.gatsbyjs.com/docs/working-with-images-in-markdown/#configuring-for-images-and-posts-in-different-directories
+        name: 'assets',
+        path: `${__dirname}/src/assets`,
         plugins: [
           'gatsby-remark-relative-images',
           {
