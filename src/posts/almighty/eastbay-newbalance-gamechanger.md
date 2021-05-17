@@ -1,6 +1,6 @@
 ---
-title: "New Balance/Eastbay Game Changer Campaign"
-description: "New Balance Eastbay Game Changer Campaign"
+title: "New Balance, Eastbay - Game Changer Campaign"
+description: "New Balance, Eastbay - Game Changer Campaign"
 draft: false
 ---
 

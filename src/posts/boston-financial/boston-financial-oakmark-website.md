@@ -1,6 +1,6 @@
 ---
 title: "Boston Financial Data Services - Oakmark Funds Website"
-description: "Works from Boston Financial Data Services"
+description: "Works from Boston Financial Data Services - Oakmark Funds Website"
 draft: false
 ---
 

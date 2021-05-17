@@ -1,6 +1,6 @@
 ---
-title: "New Balance/Eastbay Playbook Campaign"
-description: "New Balance Eastbay Playbook Campaign"
+title: "New Balance, Eastbay - Playbook Campaign"
+description: "New Balance, Eastbay - Playbook Campaign"
 draft: false
 ---
 

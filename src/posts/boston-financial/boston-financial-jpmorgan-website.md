@@ -1,6 +1,6 @@
 ---
 title: "Boston Financial Data Services - JPMorgan Website"
-description: "Works from Boston Financial Data Services"
+description: "Works from Boston Financial Data Services - JPMorgan Website"
 draft: false
 ---
 
