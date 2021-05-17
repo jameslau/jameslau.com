@@ -1,6 +1,6 @@
 ---
-title: "Boston Unitversity - School of Social Work"
-description: "Boston Univeristy client project from kor group"
+title: "Boston University - School of Social Work"
+description: "Boston University client project from kor group"
 draft: false
 ---
 
@@ -10,7 +10,7 @@ As the front-end developer, my role was to rebuild the user interface that held 
 
 - Development tool:  WordPress/Drupal 8         
 - Design: Designed by kor group  
-- Hosting Provider: AWS/Bluehost/Pantheon  
+- Hosting Provider: AWS, Bluehost, Pantheon  
 - Project lifecycle: 10+ months  
 - Website link: [https://ciswh.org/](https://ciswh.org/)   
 

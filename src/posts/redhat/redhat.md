@@ -1,17 +1,27 @@
 ---
-title: "Red Hat"
+title: "Red Hat - Syndesis Kubernetes Platform"
 description: "Works from Red Hat"
-thumb: ../assets/portfolio/thumbs/thumb-redhat-logo.png
-featuredImage: ../assets/portfolio/full/red/full-syndesis.png
 draft: false
 ---
 
-Diving into React via Gatsby JAMStack option.
+Red Hat is a multinational software company that provides open-source software specifically for enterprise-level companies.
 
-![Mountain](./mountain.jpg)
+As a UX front-end developer, my task was to build out new UI elements and debug current issues on existing software platforms on a three week sprint cycle. Most of the work were purely HTML, CSS, and vanilla JavaScript work, but on occasion I was paired with senior developers to working on React and Angular based projects.
 
-## Topics Covered
+- Development tool:  Custom code (HTML, CSS, Bootstrap 4, JavaScript, Angular, React)   
+- Design: Designed by Red Hat UX/UI designers 
+- Hosting Provider: Self hosting 
+- Project lifecycle: continuous integration 
+- Website link: [Syndesis Product Page](https://syndesis.io/)   
 
-1. Gatsby
-2. GraphQL
-3. React
+![Syndesis Main Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-dashboard.png)
+
+![Syndesis Mapping Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-mapping.png)
+
+![Syndesis API Integration Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-api-integration.png)
+
+![Syndesis TODO API Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-todo-api.png)
+
+![Syndesis Connections Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-connections.png)
+
+![Syndesis OAuth Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-oauth.png)

@@ -17,7 +17,6 @@ query (
   ) {
     frontmatter {
       title
-      featuredImage
     }
     html
   }
