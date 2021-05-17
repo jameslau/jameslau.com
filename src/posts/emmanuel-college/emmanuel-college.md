@@ -16,10 +16,10 @@ The projected needed to be fully responsive from desktop to mobile. Unique jQuer
 - Project lifecycle: 3 months  
 - Website link: The only possible way to view older campaign work is from the Wayback Machine archive [Emmanuel College Spring Enrollment Campaign Link](https://web.archive.org/web/20180210205959/https://www.emmanuel.edu/go-all-in.html)   
 
-![Emmanuel College Spring Campaign Homepage](../../assets/portfolio/emmanuel/feature/full-emm-homepage.png)
+![Emmanuel College Spring Campaign Homepage](../../assets/portfolio/kor/feature/emm/full-emm-homepage.png)
 
-![Emmanuel College Location Page](../../assets/portfolio/emmanuel/feature/full-emm-locationpage.png)
+![Emmanuel College Location Page](../../assets/portfolio/kor/feature/emm/full-emm-locationpage.png)
 
-![Emmanuel College Google Maps API Page](../../assets/portfolio/emmanuel/feature/full-emm-mappage.png)
+![Emmanuel College Google Maps API Page](../../assets/portfolio/kor/feature/emm/full-emm-mappage.png)
 
-![Emmanuel College Student Stories Page](../../assets/portfolio/emmanuel/feature/full-emm-student-stories.png)
+![Emmanuel College Student Stories Page](../../assets/portfolio/kor/feature/emm/full-emm-student-stories.png)

@@ -1,5 +1,5 @@
 ---
-title: "Dassault Systemes"
+title: "Dassault Systemes - Solidworks"
 description: "Works from Dassault Systemes"
 draft: false
 ---

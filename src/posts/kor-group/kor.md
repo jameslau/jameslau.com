@@ -1,6 +1,6 @@
 ---
-title: "Kor Group"
-description: "Works from kor group"
+title: "Kor Group Website"
+description: "kor group company website project"
 draft: false
 ---
 
