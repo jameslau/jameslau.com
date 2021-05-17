@@ -51,7 +51,7 @@ module.exports = {
               // prevent you from clicking an image and taking you to the actual image in the directory
               linkImagesToOriginal: false
             }
-          }
+          },
         ]
       }
     },

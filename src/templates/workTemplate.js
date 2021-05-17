@@ -17,6 +17,7 @@ query (
   ) {
     frontmatter {
       title
+      featuredImage
     }
     html
   }
@@ -26,9 +27,8 @@ query (
 const workTemplate = (props) => {
   return (
     <Layout>
+      {/* <p>image hero for individual project page goes here. this should also match the thumbs on the gallery page.</p> */}
       <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-      <p>{props.data.markdownRemark.frontmatter.date}</p>
-
       <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
     </Layout>
   )
