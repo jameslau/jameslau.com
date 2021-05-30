@@ -18,9 +18,16 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/`
+        path: `${__dirname}/src/`, 
       }
+      // resolve: 'gatsby-source-filesystem',
+      // options: {
+      //   name: 'blog',
+      //   path: `${__dirname}/blog/`,
+      // },
+      // __key: 'blog',
     },
+
     'gatsby-plugin-sharp', 
     {
       // add location of image files for site overall
