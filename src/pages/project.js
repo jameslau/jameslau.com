@@ -1,53 +1,56 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
-import * as workStyles from './work.module.scss'
+import * as projectStyles from './project.module.scss'
 
 import Layout from "../components/layout"
 
-const WorkPage = () => {
+const ProjectPage = () => {
 
   // a tag template literal
-  const workExcerptdata = useStaticQuery(graphql`
+  const projectExcerptdata = useStaticQuery(graphql`
     query {
       allMarkdownRemark(filter: {frontmatter: {draft: {eq: false}}}) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-              draft
-            }
+        nodes {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            posttype
+            draft
           }
         }
       }
     }
   `)
-
+  
   return (
     <Layout>
-      <h1>Work</h1>
-      <ol className={workStyles.posts}>
+      <h1>Projects</h1>
+      <ol className={projectStyles.posts}>
         
-        {workExcerptdata.allMarkdownRemark.edges.map((edge) => {
-          return (
-            <li className={workStyles.post}>
-              <Link to={`/work/${edge.node.fields.slug}`}>
-                <h2>{edge.node.frontmatter.title}</h2>
-                <p>{edge.node.frontmatter.date}</p>
-              </Link>
-            </li>
-          )
+        {projectExcerptdata.allMarkdownRemark.nodes.map((nodes) => { // this iterates through all post node types
+          if (nodes.frontmatter.posttype === 'project') { // tell system to return only if they are posttype: project
+            return (
+              <li className={projectStyles.post}>
+                <Link to={`/project/${nodes.fields.slug}`}>
+                  <h2>{nodes.frontmatter.title}</h2>
+                  <p>{nodes.frontmatter.date}</p>
+                </Link>
+              </li>
+            )
+          }
         })}
 
       </ol>
     </Layout>
   )
+
+ 
 }
 
-export default WorkPage
+export default ProjectPage
 
 
 

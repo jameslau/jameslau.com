@@ -43,54 +43,126 @@ module.exports.onCreateNode = () => {
 
 }
 
-module.exports.createPages = async ({ graphql, actions }) => {
-  
-  const { createPage } = actions
-  
-  // resolve will create everything from the absolute path of the harddrive
-  const blogTemplate = path.resolve('./src/templates/blogTemplate.js')
-  const workTemplate = path.resolve('./src/templates/workTemplate.js')
-  
-  // this functions creates a promise
-  const res = await graphql(`
-    query {
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              slug
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
+
+  return new Promise((resolve, reject) => {
+    const blogPage = path.resolve("src/templates/blog.js");
+    const projectPage = path. resolve("src/templates/project.js");
+    resolve(
+      graphql(
+        `
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  frontmatter {
+                    title
+                    posttype
+                    draft
+                  }
+                  fields {
+                    slug
+                  }
+                }
+              }
             }
           }
-        }
-      }
-    }
-  `)
+          `
+          ).then(result => {
+            if (result.errors) {
+              /* eslint no-console: "off" */
+              console.log(result.errors);
+              reject(result.errors);
+            }
+    
+            result.data.allMarkdownRemark.edges.forEach(edge => {
+    
+              if (edge.node.frontmatter.posttype === 'project') {
+                createPage({
+                  path: `/project/${edge.node.fields.slug}`,
+                  component: projectPage,
+                  context: {
+                    slug: edge.node.fields.slug,
+                  }
+                });
+              } else if (edge.node.frontmatter.posttype === 'blog') { // blog post
+                createPage({
+                  path: `/blog/${edge.node.fields.slug}`,
+                  component: blogPage,
+                  context: {
+                    slug: edge.node.fields.slug, 
+                  }
+                });
+              } 
+            });
+    
+      
+          })
+        );
+      });
+    };
 
-  // iterate all posts and run createPage function for each post
-  res.data.allMarkdownRemark.edges.forEach((edge) => {
-    createPage ({
-      component: blogTemplate,
-      path: `/blog/${edge.node.fields.slug}`,
-      context: {
-        slug: edge.node.fields.slug
-      }
-    })
-  });
-
-  // iterate all posts and run createPage function for each post
-  res.data.allMarkdownRemark.edges.forEach((edge) => {
-    createPage ({
-      component: workTemplate,
-      path: `/work/${edge.node.fields.slug}`,
-      context: {
-        slug: edge.node.fields.slug
-      }
-    })
-  });
+// module.exports.createPages = async ({ graphql, actions }) => {
   
-  // 1. get path to template
-  // 2. get markdown data
-  // 3. create new pages
+//   const { createPage } = actions
+  
+//   // resolve will create everything from the absolute path of the hard drive
+//   const blogTemplate = path.resolve('./src/templates/blog.js')
+//   const projectTemplate = path.resolve('./src/templates/project.js')
+  
+//   // this functions creates a promise
+//   const res = await graphql(`
+//     query {
+//       allMarkdownRemark {
+//         edges {
+//           node {
+//             frontmatter {
+//               title
+//               posttype
+//               description
+//               draft
+//             }
+//             fields {
+//               slug
+//             }
+//           }
+//         }
+//       }
+//     }
+//   `)
 
-}
+//   // iterate all blogs and run createPage function for each post
+//   res.data.allMarkdownRemark.edges.forEach((edge) => {
+//     if (edge.node.frontmatter.posttype === 'blog') {
+//       createPage ({
+//         path: `/blog${edge.node.fields.slug}`,
+//         component: blogTemplate,
+//         context: {
+//           slug:  edge.node.fields.slug,
+//         }
+//         // component: blogTemplate,
+//         // path: `/blog/${edge.node.fields.slug}`,
+//         // context: {
+//         //   slug: edge.node.fields.slug
+//         // }
+//       });
+//     } else {
+//       // iterate all projects and run createPage function for each post
+//       createPage ({
+//         path: `/project/${edge.node.fields.slug}`,
+//         component: projectTemplate ,
+//         context: {
+//           slug:  edge.node.fields.slug,
+//         }
+//         // component: projectTemplate,
+//         // path: `/work/${edge.node.fields.slug}`,
+//         // context: {
+//         //   slug: edge.node.fields.slug
+//         // }
+//       })
+//     }
+//   });
+
+// }
 

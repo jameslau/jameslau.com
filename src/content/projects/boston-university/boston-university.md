@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Boston University - School of Social Work"
 description: "Boston University client project from kor group"
 draft: false

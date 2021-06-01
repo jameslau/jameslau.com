@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "BR+A Website"
 description: "BR+A Project from kor group"
 draft: false

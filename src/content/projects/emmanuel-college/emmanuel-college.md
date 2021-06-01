@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Emmanuel College - Spring Enrollment Campaign"
 description: "Emmanuel College - Spring Enrollment Campaign"
 draft: false

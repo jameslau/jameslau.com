@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "New Balance, Eastbay - Playbook Campaign"
 description: "New Balance, Eastbay - Playbook Campaign"
 draft: false

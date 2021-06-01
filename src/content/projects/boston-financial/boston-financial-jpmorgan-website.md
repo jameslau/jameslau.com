@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Boston Financial Data Services - JPMorgan Website"
 description: "Works from Boston Financial Data Services - JPMorgan Website"
 draft: false

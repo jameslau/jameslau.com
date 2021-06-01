@@ -14,20 +14,35 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     'gatsby-plugin-sass',
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `data`,
+    //     path: `${__dirname}/src/data/`,
+    //     ignore: [`**/\.*`], 
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'src',
+    //     path: `${__dirname}/src/`, 
+    //   },
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'src',
-        path: `${__dirname}/src/`, 
-      }
-      // resolve: 'gatsby-source-filesystem',
-      // options: {
-      //   name: 'blog',
-      //   path: `${__dirname}/blog/`,
-      // },
-      // __key: 'blog',
+        name: 'blog',
+        path: `${__dirname}/src/content/blogs/`,
+      },
     },
-
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'projects',
+        path: `${__dirname}/src/content/projects`,
+      },
+    },
     'gatsby-plugin-sharp', 
     {
       // add location of image files for site overall

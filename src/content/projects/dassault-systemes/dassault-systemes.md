@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Dassault Systemes - Solidworks"
 description: "Works from Dassault Systemes"
 draft: false

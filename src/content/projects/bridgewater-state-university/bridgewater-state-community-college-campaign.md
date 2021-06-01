@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Bridgewater State University - Community College Campaign"
 description: "Bridgewater State University community college campaign project"
 draft: false

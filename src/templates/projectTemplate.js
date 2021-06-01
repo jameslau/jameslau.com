@@ -5,7 +5,7 @@
 
 // // define queries separately. this only works well with the template files
 // export const pageQuery = graphql`
-// query BlogPostBySlug ($slug: String!) {
+// query ProjectPostBySlug ($slug: String!) {
 //   markdownRemark (
 //     fields: {
 //       slug: {
@@ -21,15 +21,14 @@
 // }
 // `
 
-// const BlogTemplate = (props) => {
+// const projectTemplate = (props) => {
 //   return (
 //     <Layout>
+//       {/* <p>image hero for individual project page goes here. this should also match the thumbs on the gallery page.</p> */}
 //       <h1>{props.data.markdownRemark.frontmatter.title}</h1>
-//       <p>{props.data.markdownRemark.frontmatter.date}</p>
-
 //       <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
 //     </Layout>
 //   )
 // }
 
-// export default BlogTemplate
+// export default projectTemplate

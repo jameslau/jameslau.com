@@ -1,5 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from "../components/layout"
 
@@ -15,6 +16,42 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+/* eslint no-undef: "off" */
+export const pageQuery = graphql`
+  query IndexQuery {
+    blog: allMarkdownRemark(
+      limit: 2000
+      filter: {fileAbsolutePath: {regex: "/blogs/.*.md$/"}}
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  project: allMarkdownRemark(
+    limit: 2000
+    filter: {fileAbsolutePath: {regex: "/projects/.*.md$/"}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+        }
+      }
+    }
+  }
+}
+`;
 
 // export default function Home() {
 //   return <div style={{ color: 'purple', fontSize: '72px' }}>Hello world!</div>

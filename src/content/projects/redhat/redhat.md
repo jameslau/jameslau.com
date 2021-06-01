@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Red Hat - Syndesis Kubernetes Platform"
 description: "Works from Red Hat"
 draft: false

@@ -1,4 +1,5 @@
 ---
+posttype: 'project'
 title: "Bridgewater State University - Summer Campaign Microsite"
 description: "Bridgewater State University summer campaign microsite project"
 draft: false
