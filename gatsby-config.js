@@ -14,21 +14,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     'gatsby-plugin-sass',
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `data`,
-    //     path: `${__dirname}/src/data/`,
-    //     ignore: [`**/\.*`], 
-    //   },
-    // },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'src',
-    //     path: `${__dirname}/src/`, 
-    //   },
-    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -43,6 +28,15 @@ module.exports = {
         path: `${__dirname}/src/content/projects`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "UA-122362388-1", // Google Analytics / GA
+        ],
+      },
+    }
     'gatsby-plugin-sharp', 
     {
       // add location of image files for site overall
