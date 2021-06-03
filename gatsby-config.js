@@ -36,7 +36,7 @@ module.exports = {
           "UA-122362388-1", // Google Analytics / GA
         ],
       },
-    }
+    },
     'gatsby-plugin-sharp', 
     {
       // add location of image files for site overall
