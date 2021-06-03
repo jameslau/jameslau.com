@@ -14,10 +14,10 @@ The campaign ran for about two months and was developed in WordPress. An iFrame 
 - Hosting Provider: Eastbay proprietary AWS servers  
 - Project lifecycle: 3 months 
 
-![New Balance and Eastbay Game Changer Campaign](../../assets/portfolio/almighty/feature/full-eb-nb-gc-set.png)
+![New Balance and Eastbay Game Changer Campaign](../../../assets/portfolio/almighty/feature/full-eb-nb-gc-set.png)
 
-![New Balance and Eastbay Game Changer Campaign Form 1](../../assets/portfolio/almighty/feature/full-eb-nb-gc-page1.png)
+![New Balance and Eastbay Game Changer Campaign Form 1](../../../assets/portfolio/almighty/feature/full-eb-nb-gc-page1.png)
 
-![New Balance and Eastbay Game Changer Campaign Form 2](../../assets/portfolio/almighty/feature/full-eb-nb-gc-page2.png)
+![New Balance and Eastbay Game Changer Campaign Form 2](../../../assets/portfolio/almighty/feature/full-eb-nb-gc-page2.png)
 
-![New Balance and Eastbay Game Changer Campaign Form 3](../../assets/portfolio/almighty/feature/full-eb-nb-gc-page3.png)
+![New Balance and Eastbay Game Changer Campaign Form 3](../../../assets/portfolio/almighty/feature/full-eb-nb-gc-page3.png)

@@ -10,10 +10,10 @@ draft: false
 - Hosting Provider: Bridgewater State University Server  
 - Project lifecycle: 2 months  
 
-![Bridgewater State University Commitment Page](../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-campus.png)
+![Bridgewater State University Commitment Page](../../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-campus.png)
 
-![Bridgewater State University Student Profile Page](../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-student.png)
+![Bridgewater State University Student Profile Page](../../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-student.png)
 
-![Bridgewater State University Lab Page](../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-lab.png)
+![Bridgewater State University Lab Page](../../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-lab.png)
 
-![Bridgewater State University Campus Page](../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-campus.png)
+![Bridgewater State University Campus Page](../../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-campus.png)

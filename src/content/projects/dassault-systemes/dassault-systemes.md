@@ -15,8 +15,8 @@ My positions falls specifically with the Solidworks product division, under the 
 - Project lifecycle: Ongoing  
 - Website link: [Solidworks](https://www.solidworks.com/)   
 
-![Solidworks homepage](../../assets/portfolio/ds/feature/feature-ds-page-3dexperience-1.jpg)
+![Solidworks homepage](../../../assets/portfolio/ds/feature/feature-ds-page-3dexperience-1.jpg)
 
-![Solidworks FAQ page](../../assets/portfolio/ds/feature/feature-ds-page-faq.jpg)
+![Solidworks FAQ page](../../../assets/portfolio/ds/feature/feature-ds-page-faq.jpg)
 
-![Solidworks resource center page](../../assets/portfolio/ds/feature/feature-ds-page-resource-center-1.jpg)
+![Solidworks resource center page](../../../assets/portfolio/ds/feature/feature-ds-page-resource-center-1.jpg)

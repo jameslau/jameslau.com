@@ -19,6 +19,7 @@ const BlogPage = () => {
             title
             posttype
             draft
+            date
           }
         }
       }

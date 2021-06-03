@@ -14,8 +14,8 @@ This campaign was developed in WordPress with an iFrame method.
 - Hosting Provider: Eastbay proprietary AWS servers  
 - Project lifecycle: 3 months 
 
-![New Balance and Eastbay Playbook Campaign](../../assets/portfolio/almighty/feature/full-eb-nb-pb-set.png)
+![New Balance and Eastbay Playbook Campaign](../../../assets/portfolio/almighty/feature/full-eb-nb-pb-set.png)
 
-![New Balance and Eastbay Playbook Campaign Form 1](../../assets/portfolio/almighty/feature/full-eb-nb-pb-shoes.png)
+![New Balance and Eastbay Playbook Campaign Form 1](../../../assets/portfolio/almighty/feature/full-eb-nb-pb-shoes.png)
 
-![New Balance and Eastbay Playbook Campaign Form 2](../../assets/portfolio/almighty/feature/full-eb-nb-pb-videos.png)
+![New Balance and Eastbay Playbook Campaign Form 2](../../../assets/portfolio/almighty/feature/full-eb-nb-pb-videos.png)

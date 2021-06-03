@@ -15,14 +15,14 @@ A lot of the work was done using pure HTML, CSS, JavaScript (mostly jQuery). A l
 - Project lifecycle: 9+ months  
 - Website link: Internal project  
 
-![Boston Financial - JPMorgan Device Set](../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-set.png)
+![Boston Financial - JPMorgan Device Set](../../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-set.png)
 
-![Boston Financial - JPMorgan Account Summary](../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page1.png)
+![Boston Financial - JPMorgan Account Summary](../../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page1.png)
 
-![Boston Financial - JPMorgan Funds Summary](../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page2.png)
+![Boston Financial - JPMorgan Funds Summary](../../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page2.png)
 
-![Boston Financial - JPMorgan Sell Funds Page](../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page3.png)
+![Boston Financial - JPMorgan Sell Funds Page](../../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page3.png)
 
-![Boston Financial - JPMorgan Gain/Loss Estimates Page](../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page4.png)
+![Boston Financial - JPMorgan Gain/Loss Estimates Page](../../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page4.png)
 
-![Boston Financial - JPMorgan Cost Basis Activity](../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page5.png)
+![Boston Financial - JPMorgan Cost Basis Activity](../../../assets/portfolio/bfds/feature/jpm/full-bfds-jpm-page5.png)

@@ -15,6 +15,6 @@ As the front-end developer, my role was to rebuild the user interface that held 
 - Project lifecycle: 10+ months  
 - Website link: [https://ciswh.org/](https://ciswh.org/)   
 
-![Boston University CISWH Homepage](../../assets/portfolio/kor/feature/bu/full-bu-cahpp-homepage.png)
+![Boston University CISWH Homepage](../../../assets/portfolio/kor/feature/bu/full-bu-cahpp-homepage.png)
 
-![Boston University CISWH Financing Strategies Page](../../assets/portfolio/kor/feature/bu/full-bu-cahpp-fspage.png)
+![Boston University CISWH Financing Strategies Page](../../../assets/portfolio/kor/feature/bu/full-bu-cahpp-fspage.png)

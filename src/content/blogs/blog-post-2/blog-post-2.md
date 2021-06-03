@@ -2,7 +2,7 @@
 posttype: 'blog'
 title: "Lorem Ipsum Blog Post 2"
 description: "Lorem Ipsum Blog Post 2"
-draft: false
+draft: true
 ---
 
 Duis rhoncus hendrerit molestie. In mattis purus sit amet libero porttitor sollicitudin. Pellentesque semper laoreet sapien, vel ultricies purus auctor et. Morbi ullamcorper, erat in dapibus mattis, risus turpis dignissim lectus, ut cursus massa libero et massa. Phasellus ut elementum eros. Suspendisse dolor neque, posuere in metus sed, fermentum viverra ante. Sed varius sollicitudin orci, a consequat felis posuere vel.

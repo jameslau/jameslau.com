@@ -13,12 +13,12 @@ Second major project out of two major clients that were handled by Boston Financ
 - Project lifecycle: 9+ months  
 - Website link: Internal project  
 
-![Boston Financial - Oakmark Device Set](../../assets/portfolio/bfds/feature/oak/full-bfds-oak-set.png)
+![Boston Financial - Oakmark Device Set](../../../assets/portfolio/bfds/feature/oak/full-bfds-oak-set.png)
 
-![Boston Financial - Oakmark Portfolio Summary](../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page1.png)
+![Boston Financial - Oakmark Portfolio Summary](../../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page1.png)
 
-![Boston Financial - Oakmark Fund Selections](../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page2.png)
+![Boston Financial - Oakmark Fund Selections](../../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page2.png)
 
-![Boston Financial - Oakmark Add Funds Page](../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page3.png)
+![Boston Financial - Oakmark Add Funds Page](../../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page3.png)
 
-![Boston Financial - Oakmark Confirmation Page](../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page5.png)
+![Boston Financial - Oakmark Confirmation Page](../../../assets/portfolio/bfds/feature/oak/full-bfds-oak-page5.png)

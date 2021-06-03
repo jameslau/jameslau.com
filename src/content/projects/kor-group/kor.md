@@ -17,10 +17,10 @@ Several design iterations were implemented prior to development. How many rounds
 - Project lifecycle: 3 months  
 - Website link: [kor group](https://www.kor.com/)   
 
-![kor group homepage](../../assets/portfolio/kor/feature/kor/full-kor-homepage.png)
+![kor group homepage](../../../assets/portfolio/kor/feature/kor/full-kor-homepage.png)
 
-![kor group about page](../../assets/portfolio/kor/feature/kor/full-kor-aboutpage.png)
+![kor group about page](../../../assets/portfolio/kor/feature/kor/full-kor-aboutpage.png)
 
-![kor group work page](../../assets/portfolio/kor/feature/kor/full-kor-workpage.png)
+![kor group work page](../../../assets/portfolio/kor/feature/kor/full-kor-workpage.png)
 
-![kor group team page](../../assets/portfolio/kor/feature/kor/full-kor-teampage.png)
+![kor group team page](../../../assets/portfolio/kor/feature/kor/full-kor-teampage.png)

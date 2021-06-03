@@ -15,14 +15,14 @@ As a UX front-end developer, my task was to build out new UI elements and debug 
 - Project lifecycle: continuous integration 
 - Website link: [Syndesis Product Page](https://syndesis.io/)   
 
-![Syndesis Main Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-dashboard.png)
+![Syndesis Main Dashboard](../../../assets/portfolio/redhat/feature/feature-syndesis-dashboard.png)
 
-![Syndesis Mapping Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-mapping.png)
+![Syndesis Mapping Dashboard](../../../assets/portfolio/redhat/feature/feature-syndesis-mapping.png)
 
-![Syndesis API Integration Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-api-integration.png)
+![Syndesis API Integration Dashboard](../../../assets/portfolio/redhat/feature/feature-syndesis-api-integration.png)
 
-![Syndesis TODO API Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-todo-api.png)
+![Syndesis TODO API Dashboard](../../../assets/portfolio/redhat/feature/feature-syndesis-todo-api.png)
 
-![Syndesis Connections Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-connections.png)
+![Syndesis Connections Dashboard](../../../assets/portfolio/redhat/feature/feature-syndesis-connections.png)
 
-![Syndesis OAuth Dashboard](../../assets/portfolio/redhat/feature/feature-syndesis-oauth.png)
+![Syndesis OAuth Dashboard](../../../assets/portfolio/redhat/feature/feature-syndesis-oauth.png)
