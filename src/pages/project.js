@@ -40,6 +40,8 @@ const ProjectPage = () => {
                 </Link>
               </li>
             )
+          } else {
+            return undefined
           }
         })}
 

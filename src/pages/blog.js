@@ -41,6 +41,8 @@ const BlogPage = () => {
                 </Link>
               </li>
             )
+          } else {
+            return undefined
           }
         })}
 
