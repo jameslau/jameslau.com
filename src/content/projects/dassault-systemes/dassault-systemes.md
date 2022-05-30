@@ -1,7 +1,7 @@
 ---
 posttype: 'project'
 title: "Dassault Systemes - Solidworks"
-description: "Works from Dassault Systemes"
+description: "Solidworks from Dassault Systemes"
 draft: false
 ---
   
@@ -9,9 +9,9 @@ Dassault Systèmes is a software company based out of Vélizy-Villacoublay, Fran
 
 My positions falls specifically with the Solidworks product division, under the marketing department. Day to day tasks consists of Drupal 8 site maintenance. Collaborations work with backend developers on legacy site overhaul (Cold Fusion to Vue.js and Drupal headless method).
 
-- Development tool: Drupal 8.5+  
+- Development platform: Drupal 8.5+  
 - Design: Internal marketing designs  
-- Hosting Provider: Internal Servers and Akamai Technologies  
+- Hosting provider: Internal servers and Akamai Technologies  
 - Project lifecycle: Ongoing  
 - Website link: [Solidworks](https://www.solidworks.com/)   
 

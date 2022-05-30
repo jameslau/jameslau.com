@@ -5,9 +5,9 @@ description: "Bridgewater State University community college campaign project"
 draft: false
 ---
 
-- Development tool: Drupal 8         
-- Design: Designed by kor group  
-- Hosting Provider: Bridgewater State University Server  
+- Development platform: Drupal 8         
+- Design: Designed by [kor group](https://www.kor.com/)  
+- Hosting provider: Bridgewater State University Server  
 - Project lifecycle: 2 months  
 
 ![Bridgewater State University Commitment Page](../../../assets/portfolio/kor/feature/bsu/bsu-cc2/full-bsu-cc2-campus.png)

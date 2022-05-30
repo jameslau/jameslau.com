@@ -1,13 +1,13 @@
 ---
 posttype: 'project'
 title: "BR+A Website"
-description: "BR+A Project from kor group"
+description: "BR+A website project"
 draft: false
 ---
 
-- Development tool: Drupal 8         
-- Design: Designed by kor group   
-- Hosting Provider: Pantheon  
+- Development platform: Drupal 8         
+- Design: Designed by [kor group](https://www.kor.com/)    
+- Hosting provider: Pantheon  
 - Project lifecycle: 6 months  
 - Website link: [BR+A Website](https://brplusa.com/)  
 

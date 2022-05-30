@@ -9,9 +9,9 @@ The Game Changer campaign was a partnership between New Balance and Eastbay spec
 
 The campaign ran for about two months and was developed in WordPress. An iFrame method was implemented in order to maintain separation between Eastbay's main website and the New Balance campaign form.
 
-- Development tool: WordPress   
+- Development platform: WordPress   
 - Design: Designed by Almighty 
-- Hosting Provider: Eastbay proprietary AWS servers  
+- Hosting provider: Eastbay proprietary AWS servers  
 - Project lifecycle: 3 months 
 
 ![New Balance and Eastbay Game Changer Campaign](../../../assets/portfolio/almighty/feature/full-eb-nb-gc-set.png)

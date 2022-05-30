@@ -11,9 +11,9 @@ Emmanuel College's website was built on WordPress and some minor departments in 
 
 The project needed to be fully responsive from desktop to mobile. Unique jQuery elements to enhance the user's experience along with an embedded Google Maps API section.
 
-- Development tool:  Custom code (HTML, CSS, Bootstrap 3, JavaScript)   
-- Design: Designed by kor group  
-- Hosting Provider: Emmanuel College servers  
+- Development platform: Custom code (HTML, CSS, Bootstrap 3, JavaScript)   
+- Design: Designed by [kor group](https://www.kor.com/)  
+- Hosting provider: Emmanuel College servers  
 - Project lifecycle: 3 months  
 - Wayback Machine Archive link: [Emmanuel College Spring Enrollment Campaign Link](https://web.archive.org/web/20180210205959/https://www.emmanuel.edu/go-all-in.html)   
 

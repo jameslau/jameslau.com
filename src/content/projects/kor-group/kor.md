@@ -1,7 +1,7 @@
 ---
 posttype: 'project'
 title: "Kor Group Website"
-description: "kor group company website project"
+description: "kor group company website"
 draft: false
 ---
 
@@ -11,9 +11,9 @@ kor’s primary focus is print, but they need a new website to best represent th
 
 Several design iterations were implemented prior to development. How many rounds is unclear, but it started before my time at kor. However, once a design decision was made, project's development phase took off. It took a total of three months to complete. Database from the old site wasn't a concern because the content was old, thus more time was given to engineering the new site.  
 
-- Development tool: WordPress   
+- Development platform: WordPress   
 - Design: Designed by kor group  
-- Hosting Provider: WPEngine   
+- Hosting provider: WPEngine   
 - Project lifecycle: 3 months  
 - Website link: [kor group](https://www.kor.com/)   
 

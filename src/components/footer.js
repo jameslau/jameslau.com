@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (  
     <footer className={footerStyles.footer}>
-      <p>site developed with <Link to="https://www.gatsbyjs.com/">Gatsby.js</Link>. built by {footerData.site.siteMetadata.author} © 2021</p>
+      <p>site developed with <Link to="https://www.gatsbyjs.com/">Gatsby.js</Link>. built by {footerData.site.siteMetadata.author} © 2022</p>
     </footer>
   )
 }
