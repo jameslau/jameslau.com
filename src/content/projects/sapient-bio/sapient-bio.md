@@ -9,12 +9,16 @@ draft: false
 - Design: Site designed by [Image Conscious Studios](https://www.icscreative.com/)    
 - Hosting provider: WPEngine   
 - Project lifecycle: 3 months  
-- Website link: [sapient bio](https://sapient.bio/)   
+- Website link: [Sapient Bioanalytics](https://sapient.bio/)   
 
-![sapient bio homepage](../../../assets/portfolio/kor/feature/kor/full-kor-homepage.png)
+![sapient bio homepage](../../../assets/portfolio/ics/feature/sapient-bio/full-sapient-bio-homepage.png)
 
-![sapient bio about page](../../../assets/portfolio/kor/feature/kor/full-kor-aboutpage.png)
+![sapient bio technology page](../../../assets/portfolio/ics/feature/sapient-bio/full-sapient-bio-technology.png)
 
-![sapient bio work page](../../../assets/portfolio/kor/feature/kor/full-kor-workpage.png)
+![sapient bio applications page](../../../assets/portfolio/ics/feature/sapient-bio/full-sapient-bio-applications.png)
 
-![sapient bio team page](../../../assets/portfolio/kor/feature/kor/full-kor-teampage.png)
+![sapient bio our story page](../../../assets/portfolio/ics/feature/sapient-bio/full-sapient-bio-our-story.png)
+
+![sapient bio our resources main page](../../../assets/portfolio/ics/feature/sapient-bio/full-sapient-bio-resources-main.png)
+
+![sapient bio our resources post page](../../../assets/portfolio/ics/feature/sapient-bio/full-sapient-bio-resources-post.png)
