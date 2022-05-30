@@ -12,10 +12,12 @@ draft: false
 - Project lifecycle type: retainer project  
 - Website link: [Slingshot Biosciences](https://slingshotbio.com/)   
 
-![slingshot biosciences homepage](../../../assets/portfolio/kor/feature/kor/full-kor-homepage.png)
+![slingshot biosciences homepage](../../../assets/portfolio/ics/feature/slingshot/full-slingshot-bio-homepage.png)
 
-![slingshot biosciences about page](../../../assets/portfolio/kor/feature/kor/full-kor-aboutpage.png)
+![slingshot biosciences technology page](../../../assets/portfolio/ics/feature/slingshot/full-slingshot-bio-technology.png)
 
-![slingshot biosciences work page](../../../assets/portfolio/kor/feature/kor/full-kor-workpage.png)
+![slingshot biosciences cell-analysis page](../../../assets/portfolio/ics/feature/slingshot/full-slingshot-bio-cell-analysis.png)
 
-![slingshot biosciences team page](../../../assets/portfolio/kor/feature/kor/full-kor-teampage.png)
+![slingshot biosciences about us page](../../../assets/portfolio/ics/feature/slingshot/full-slingshot-bio-about-us.png)
+
+![slingshot biosciences resources page](../../../assets/portfolio/ics/feature/slingshot/full-slingshot-bio-resources.png)

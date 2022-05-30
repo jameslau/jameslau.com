@@ -9,7 +9,7 @@ New balance partnered with Eastbay on multiple occasions in order to promote and
 
 This campaign was developed in WordPress with an iFrame method.
 
-- Development platform: WordPress   
+- Development platform: WordPress
 - Design: Designed by Almighty 
 - Hosting provider: Eastbay proprietary AWS servers  
 - Project lifecycle: 3 months 
