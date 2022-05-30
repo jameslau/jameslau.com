@@ -12,10 +12,14 @@ draft: false
 - Project lifecycle type: retainer project  
 - Website link: [Energy Recovery](https://energyrecovery.com/)   
 
-![energy recovery homepage](../../../assets/portfolio/kor/feature/kor/full-kor-homepage.png)
+![energy recovery english homepage](../../../assets/portfolio/ics/feature/energy-recovery/full-energy-recovery-homepage-english.png)
 
-![energy recovery about page](../../../assets/portfolio/kor/feature/kor/full-kor-aboutpage.png)
+![energy recovery chinese homepage](../../../assets/portfolio/ics/feature/energy-recovery/full-energy-recovery-homepage-chinese.png)
 
-![energy recovery work page](../../../assets/portfolio/kor/feature/kor/full-kor-workpage.png)
+![energy recovery english industries](../../../assets/portfolio/ics/feature/energy-recovery/full-energy-recovery-industries-english.png)
 
-![energy recovery team page](../../../assets/portfolio/kor/feature/kor/full-kor-teampage.png)
+![energy recovery chinese industries](../../../assets/portfolio/ics/feature/energy-recovery/full-energy-recovery-industries-chinese.png)
+
+![energy recovery english products](../../../assets/portfolio/ics/feature/energy-recovery/full-energy-recovery-turbocharger-english.png)
+
+![energy recovery chinese products](../../../assets/portfolio/ics/feature/energy-recovery/full-energy-recovery-turbocharger-chinese.png)
