@@ -2,7 +2,7 @@
 posttype: 'project'
 title: "Tataa Biocenter Website"
 description: "Tataa Biocenter website"
-draft: false
+draft: true
 ---
 
 - Development platform: WordPress 5.9+ 

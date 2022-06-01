@@ -37,7 +37,8 @@ module.exports = {
         ],
       },
     },
-    'gatsby-plugin-sharp', 
+    'gatsby-plugin-sharp',
+    `gatsby-transformer-sharp`, // Needed for dynamic images 
     {
       // add location of image files for site overall
       resolve: `gatsby-source-filesystem`,
