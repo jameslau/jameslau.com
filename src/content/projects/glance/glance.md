@@ -2,7 +2,7 @@
 posttype: 'project'
 title: "Glance Branding Website"
 description: "Glance Branding website"
-draft: false
+draft: true
 ---
 
 - Development platform: Custom code (HTML, CSS, Bootstrap 3, JavaScript) 
